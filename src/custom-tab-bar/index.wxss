@@ -1,0 +1,35 @@
+.tab-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100rpx;
+  display: flex;
+  background: #2b374d;
+  box-shadow: 0px -6px 20px 0px 
+    rgba(16, 23, 39, 0.4)
+}
+
+.tab-bar-item {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tab-bar-item cover-image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.tab-bar-item cover-view {
+  line-height: 30rpx;
+  font-size: 20rpx;
+  color: #c2c2c2;
+}
+.tab-bar-item:nth-child(3) cover-image {
+  width: 90rpx;
+  height: 90rpx;
+}

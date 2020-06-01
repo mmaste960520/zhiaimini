@@ -1,0 +1,199 @@
+{
+  "pages": [
+    {
+      "path": "pages/boutique-recommend/index",
+      "style": {
+        "navigationBarTitleText": "精选推荐",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/user-center/index",
+      "style": {
+        "navigationBarTitleText": "个人设置"
+      }
+    },
+    {
+      "path": "pages/user-package/index",
+      "style": {
+        "navigationBarTitleText": "背包"
+      }
+    },
+    {
+      "path": "pages/count-down/index",
+      "style": {
+        "navigationBarTitleText": "注册",
+        "navigationBarBackgroundColor": "#283040"
+      }
+    },
+    {
+      "path": "pages/about/index",
+      "style": {
+        "navigationBarTitleText": "关于我们"
+      }
+    },
+    {
+      "path": "pages/improve-info/index",
+      "style": {
+        "navigationBarTitleText": "完善资料"
+      }
+    },
+    {
+      "path": "pages/user-type/group/index",
+      "style": {
+        "navigationBarTitleText": "注册"
+      }
+    },
+    {
+      "path": "pages/message/index",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/user-type/personal/index",
+      "style": {
+        "navigationBarTitleText": "注册"
+      }
+    },
+    {
+      "path": "pages/gift-card/index",
+      "style": {
+        "navigationBarTitleText": "优惠充值"
+      }
+    },
+    {
+      "path": "pages/official-subject-list/index",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/active-area-list/index",
+      "style": {
+        "navigationBarTitleText": "活动专区"
+      }
+    },
+    {
+      "path": "pages/open-vip-details/index",
+      "style": {
+        "navigationBarTitleText": "会员权限"
+      }
+    },
+    {
+      "path": "pages/vip-center/index",
+      "style": {
+        "navigationBarTitleText": "会员中心"
+      }
+    },
+    {
+      "path": "pages/active-area-list/active-details",
+      "style": {
+        "navigationBarTitleText": "活动详情"
+      }
+    },
+    {
+      "path": "pages/living-details/index",
+      "style": {
+        "navigationBarTitleText": "直播详情"
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/live/index",
+      "style": {
+        "navigationBarTitleText": "直播列表",
+        "navigationStyle": "custom",
+        "backgroundTextStyle": "dark",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/user-photo-tailor/index",
+      "style": {
+        "navigationBarTitleText": "上传图像"
+      }
+    },
+    {
+      "path": "pages/live-room/index",
+      "style": {
+        "navigationBarTitleText": "直播间",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/web-view/index",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/phone-login/index",
+      "style": {
+        "navigationBarTitleText": "登陆注册"
+      }
+    },
+    {
+      "path": "pages/login-index/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/recommend-banner-detail/index",
+      "style": {
+        "navigationBarTitleText": " "
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#c2c2c2",
+    "selectedColor": "#f1c289",
+    "borderStyle": "black",
+    "backgroundColor": "#2b374d",
+    "list": [
+      {
+        "pagePath": "pages/boutique-recommend/index",
+        "iconPath": "./static/tabbar/ic_common_bottom_recommend_state_1.png",
+        "selectedIconPath": "./static/tabbar/ic_common_bottom_recommend_state_2.png",
+        "text": "推荐"
+      },
+      {
+        "pagePath": "pages/message/index",
+        "iconPath": "./static/tabbar/ic_common_bottom_news_state_1.png",
+        "selectedIconPath": "./static/tabbar/ic_common_bottom_news_state_2.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/live/index",
+        "iconPath": "./static/tabbar/ic_common_bottom_live_state_1.png",
+        "selectedIconPath": "./static/tabbar/ic_common_bottom_live_state_2.png",
+        "text": "直播"
+      },
+      {
+        "pagePath": "pages/official-subject-list/index",
+        "iconPath": "./static/tabbar/ic_common_bottom_formal_state_1.png",
+        "selectedIconPath": "./static/tabbar/ic_common_bottom_formal_state_2.png",
+        "text": "官方"
+      },
+      {
+        "pagePath": "pages/user-center/index",
+        "iconPath": "./static/tabbar/ic_common_bottom_me_state_1.png",
+        "selectedIconPath": "./static/tabbar/ic_common_bottom_me_state_2.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "#eaebec",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#253358",
+    "backgroundColor": "#283040",
+    "onReachBottomDistance": 400
+  }
+}
